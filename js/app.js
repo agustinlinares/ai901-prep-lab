@@ -137,6 +137,7 @@ function renderChrome(){
 function render(){
   renderChrome();
   const m = $('#main');
+  m.className = view === 'panel' ? '' : 'view-narrow';
   ({panel:vPanel, teoria:vTheory, flashcards:vCards, practica:vPractice, simulacro:vSim, fallos:vWrong})[view](m);
   window.scrollTo(0, 0);
 }
