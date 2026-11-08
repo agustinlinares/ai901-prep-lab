@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="App bilingüe para preparar la certificación Microsoft AI-901: Azure AI Fundamentals">
+<title>AI-901 Prep Lab</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="shell">
+  <aside class="rail">
+    <a class="logo" href="#panel" aria-label="AI-901">AI-901</a>
+    <nav id="rail-nav" aria-label="Secciones"></nav>
+    <div class="spacer"></div>
+  </aside>
+  <main class="main">
+    <header class="topbar">
+      <div class="greet"><h1 id="tb-title">¡Hola, Agustín!</h1><p class="sub" id="tb-sub">Así va tu preparación para el AI-901</p></div>
+      <span class="lang" role="group" aria-label="Idioma / Language"><button data-l="es" aria-pressed="true">ES</button><button data-l="en" aria-pressed="false">EN</button></span>
+      <a class="pill-btn" id="tb-sim" href="#simulacro"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9 2h6"/></svg><span>Simulacro</span></a>
+    </header>
+    <div id="main"></div>
+  </main>
+</div>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
